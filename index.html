@@ -18,6 +18,9 @@
         <header class="header">
             <button class="header_menu" aria-label="Menu"><i></i></button>
             <img class="header_logo" src="./assets/img/logo.svg" alt="Logotipo da HZC">
+
+            <p class="header_profile">Bruno Lopez</p>
+
             <button class="header_notification" aria-label="Notificação"><i></i></button>
         </header>
         
@@ -33,8 +36,10 @@
 
         <main class="main">
             <h2 class="title-page">Início</h2>
-            <article class="card">
-                <img class="card-img" src="./assets/img/banner-mobile_1.png" alt="Banner do Cartão">
+            <article class="card card--destaque destaque-video">
+                <img class="card-img card-img--mobile" src="./assets/img/banner-mobile_1.png" alt="Banner do Cartão">
+                <img class="card-img card-img--desktop" src="./assets/img/banner_1.png" alt="Banner do Cartão">
+
                 <div class="card-content">
                     <p class="card-destaque">Vídeos em destaque</p>
                     <h3 class="card-title">HZC - Life is... / 2021</h3>
@@ -48,7 +53,44 @@
             </article>
 
             
-            <section class="section">
+            <article class="card card-recentes videos-recentes">
+                <h3 class="card-title">Vídeos Recentes</h3>
+                <a href="#" class="card-link">Ver todos</a>
+                <ul class="card-list">
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_1.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">HZC - Love Machine</h4>
+                        <p class="card-item-profile">Júlia Fonseca</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_2.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">HZC - Vol. 3</h4>
+                        <p class="card-item-profile">Júlia Fonseca</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_3.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">HZC - Pescaria na Urca</h4>
+                        <p class="card-item-profile">Júlia Fonseca</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_4.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Vidalocagi - Guerreiros do Asfalto</h4>
+                        <p class="card-item-profile">Júlia Fonseca</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_5.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Vidalocagi - Não importa o nível</h4>
+                        <p class="card-item-profile">Júlia Fonseca</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_1.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">HZC - Love Machine</h4>
+                        <p class="card-item-profile">Júlia Fonseca</p>
+                    </li>
+                </ul>
+            </article>
+            
+            <section class="section section-videos">
                 <h3 class="title-section">Vídeos mais vistos</h3>
                 
                 <article class="card">
@@ -95,8 +137,52 @@
                     </div>
                 </article>
             </section>
-            <article class="card">
-                <img class="card-img" src="./assets/img/banner-mobile_2.png" alt="Banner do Cartão">
+
+            <article class="card card-recentes produtos-recentes">
+                <h3 class="card-title">Novas artes</h3>
+                <a href="#" class="card-link">Ver todos</a>
+                <ul class="card-list">
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_1.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Sem título 01</h4>
+                        <p class="card-item-profile">Antonio Tebyriçá</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_1.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Sem título 02</h4>
+                        <p class="card-item-perfil">Bruno Lopez</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_3.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Segurança</h4>
+                        <p class="card-item-profile">Raphael Gibson</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_4.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Malunguisse</h4>
+                        <p class="card-item-profile">Carolina Canavarro</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_4.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Coroa da converse</h4>
+                        <p class="card-item-profile">Nikolas de Murtas</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_3.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Segurança</h4>
+                        <p class="card-item-profile">Raphael Gibson</p>
+                    </li>
+                    <li class="card-item">
+                        <img src="./assets/img/miniatura_1.png" alt="Thumbnail" class="card-item-thumbnail">
+                        <h4 class="card-item-title">Sem título 03</h4>
+                        <p class="card-item-profile">Antonio Tebyriçá</p>
+                    </li>
+                </ul>
+            </article>
+
+
+            <article class="card card--destaque destaque-produtos">
+                <img class="card-img" src="./assets/img/banner_2.png" alt="Banner do Cartão">
                 <div class="card-content">
                     <p class="card-destaque">Nova Arte</p>
                     <h3 class="card-title">Only Zikas - Lagoa Dompa Club</h3>
@@ -110,7 +196,7 @@
             </article>
 
             
-            <section class="section">
+            <section class="section section-produtos">
                 <h3 class="title-section">Camisas mais recentes</h3>
 
                 <article class="card">
@@ -120,7 +206,7 @@
                         <h3 class="card-title">IBM</h3>
                         <p class="card-info card-info--buy">33,33</p>
 
-                        <button class="card-button card-button--videos-mais-vistos card-button--buy" aria-label="Assistir agora"></button>
+                        <button class="card-button card-button--produtos-mais-vistos card-button--buy" aria-label="Assistir agora"></button>
                     </div>
                 </article>
 
@@ -128,7 +214,7 @@
                     <img class="card-img" src="./assets/img/produto_2.png" alt="Vídeo">
                     <div class="card-content">
                         <p class="card-profile">Bruno Lopes</p>
-                        <h3 class="card-title">Huflez Crew Philosophy Club</h3>
+                        <h3 class="card-title">HCPC</h3>
                         <p class="card-info card-info--buy">33,33</p>
 
                         <button class="card-button card-button--videos-mais-vistos card-button--buy" aria-label="Assistir agora"></button>
