@@ -1,6 +1,6 @@
 # HZC - Web Page
 
-![preview](./.github/preview.png)
+![preview](./assets/img/preview.png)
 
 > CSS: Dispondo elementos com Flexbox e Grid
 
